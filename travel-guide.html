@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mallorca travel video guide and tips.">
   <title>Mallorca Travel Guide</title>
-  <link rel="stylesheet" href="mallorca.css" />
+  <link rel="stylesheet" href="mallorca.css">
 </head>
 <body>
+
   <header>
     <div class="logo">Mallorca Travel</div>
     <nav>
@@ -18,16 +20,26 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <h1>Explore Mallorca</h1>
-    <p>Watch this video guide to discover the best of Mallorca — from stunning coastlines and villages to cultural landmarks.</p>
-    <div style="margin-top: 30px;">
-      <iframe width="100%" height="480" src="https://www.youtube.com/embed/zlQ_nE_UrLo" 
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-      </iframe>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <h1>Explore Mallorca</h1>
+      <p>Watch this video guide to discover the best of Mallorca — from stunning coastlines and villages to cultural landmarks.</p>
+
+      <video width="100%" height="auto" controls>
+        <source src="mallorca.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div style="margin-top: 30px;">
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/zlQ_nE_UrLo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact us at <a href="mailto:info@mallorcatravel.com">info@mallorcatravel.com</a></p>
+    <p>Visit <a href="https://www.google.com" target="_blank">Google</a> for more info</p>
+  </footer>
+
 </body>
 </html>
